@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.show-sidebar {
+  display: block;
+}
+.hide-sidebar {
+  width: 0;
+  padding: 0;
+  border: none;
+  transition: 0.4s;
+}
